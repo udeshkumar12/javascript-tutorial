@@ -55,11 +55,18 @@
 //   document.writeln("<br>");
 // };
 // pattern 9
-for (let i = 5; i >= 1; i--) {
-  for (let j = 5; j >(5-i); j--) {
-    document.writeln(j);
-  }
-  document.writeln("<br>");
-};
+// for (let i = 5; i >= 1; i--) {
+//   for (let j = 5; j >(5-i); j--) {
+//     document.writeln(j);
+//   }
+//   document.writeln("<br>");
+// };
+// pattern 10
+// for (let i = 5; i >= 1; i--) {
+//   for (let j = 5; j >(5-i); j--) {
+//     document.writeln(j);
+//   }
+//   document.writeln("<br>");
+// };
 
 
