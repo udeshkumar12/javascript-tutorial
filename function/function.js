@@ -37,3 +37,16 @@ function greet(name = "Guest") {
 greet();
 greet("Udesh");
 
+
+// 8  Callback Function Example
+
+function greet(name) {
+    console.log("Hello " + name);
+}
+
+function processUser(callback) {
+    let userName = "Udesh";
+    callback(userName);
+}
+
+processUser(greet);
